@@ -1,0 +1,152 @@
+    .sidebar-container {
+        height: 120%;
+        width: 300px;
+        background-image: linear-gradient(180deg, #135add, #013493);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        padding: 30px;
+
+
+        .logo {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 40px;
+                height: 40px;
+            }
+
+            span {
+                color: white;
+                font-family: "Outfit", sans-serif;
+                font-weight: 100;
+                font-size: 20px;
+            }
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 40px;
+
+            a {
+                color: white;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+                gap: 15px;
+                padding: 5px 10px 5px 10px;
+                opacity: 0.9;
+
+                img {
+                    height: 25px;
+                }
+            }
+
+            a:hover {
+                opacity: 1;
+                background-color: #3771dd;
+                border-radius: 10px;
+                transition: .5s;
+            }
+        }
+
+        .log {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 5px 10px 5px 10px;
+            position: absolute;
+            bottom: 20px;
+
+
+            img {
+                height: 30px;
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+
+        .add {
+            background-color: #e6efff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: absolute;
+            left: 0;
+            bottom: 80px;
+            margin: 15px;
+            padding: 20px 0 20px 20px;
+            border-radius: 10px;
+            overflow: hidden;
+
+            h2 {
+                color: #5f62fa;
+                margin: 0;
+            }
+
+            ul {
+                padding: 10px 0 0 0;
+                color: #636363;
+                list-style: none;
+                margin: 0;
+
+
+                li {
+                    margin-top: 10px;
+                    font-size: 15px;
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+
+                    img {
+                        height: 15px;
+                    }
+                }
+            }
+
+            .buy {
+
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+
+                h6 {
+                    color: black;
+                    font-size: 12px;
+                    margin: 0;
+                }
+
+                button {
+                    background-color: #135ade;
+                    outline: none;
+                    border: none;
+                    border-radius: 20px 0 0 20px;
+                    padding: 5px 5px 5px 15px;
+                    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+                    a {
+                        color: white;
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        font-size: 12px;
+                        text-decoration: none;
+
+                        img {
+                            height: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }

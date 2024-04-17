@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+.discount {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6ddc9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    color: #dd5d2d;
+}
+
+.main-container {
+    margin-top: 30px;
+    width: 100%;
+
+    .home-container {
+
+        .user {
+            height: 50px;
+            width: 100%;
+            background-color: white;
+            padding: 10px;
+
+            a {
+                display: flex;
+                justify-content: end;
+                margin-right: 80px;
+
+                img {
+                    height: 30px;
+                }
+            }
+        }
+
+        .progress {
+            margin-left: 350px;
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+
+            .graph {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                span {
+                    font-family: "Outfit", sans-serif;
+                    font-weight: 100;
+                    font-size: 20px;
+                }
+
+                img {
+                    width: 700px;
+                    border-radius: 15px;
+                }
+            }
+
+            .save-lives {
+                width: 400px;
+                display: flex;
+                flex-direction: column;
+                justify-content: end;
+                align-items: center;
+                background: url("/save lives.png") no-repeat center center / cover;
+                margin-top: 40px;
+                margin-right: 80px;
+                border-radius: 15px;
+                color: white;
+                padding: 0 30px 10px 30px;
+                text-align: center;
+
+                h3 {
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 30px;
+                    font-weight: 400;
+                    margin-bottom: 0;
+                }
+
+                p {
+                    font-size: 15px;
+                    font-weight: 100;
+                    color: #dbdedf;
+                }
+
+                button {
+                    border: none;
+                    border-radius: 20px;
+                    padding: 5px 35px 5px 35px;
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+
+        }
+    }
+}
